@@ -1,0 +1,36 @@
+.ease{
+	
+}
+.easy__head{
+	padding-top: 80px;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.easy__title{
+	font-size: 45px;
+	font-weight: 700;
+	color: #061e37;
+	margin-bottom: 10px;
+}
+.easy__subtitle{
+	color: #b0bec5;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.easy__text{
+	font-size: 15px;
+	line-height: 1.4;
+	color: #b0bec5;
+}
+@media screen and(max-width: $small-width){
+	.easy__title{
+		font-size: 30px;
+	}
+	.easy__subtitle{
+		font-size: 15px;
+	}
+	.easy__text{
+		font-size: 10px;
+	}
+}

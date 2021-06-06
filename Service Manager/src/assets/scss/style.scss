@@ -1,0 +1,48 @@
+@import "vars";
+@import "vendor/reset";
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.4rem;
+   
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/sidebar";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/nav";
+@import "blocks/elements";
+@import "blocks/easy";
+@import "blocks/goes";
+@import "blocks/counts";
+@import "blocks/service";
+@import "blocks/custom";
+@import "blocks/contact";
+@import "blocks/footer";
+
+
+
+
+
+
+
+
+
+

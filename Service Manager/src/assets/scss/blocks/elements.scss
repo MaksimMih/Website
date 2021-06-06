@@ -1,0 +1,164 @@
+.elements{
+	
+	padding-top: 160px;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding-bottom: 200px;
+}
+.elements__content{
+	max-width: 600px;
+	
+	
+}
+.elements__title{
+
+	color: $white;
+	font-size: 55px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.elements__text{
+	line-height: 1.7;
+	font-size: 18px;
+	color: rgba($white,.7);
+	margin-bottom: 50px;
+}
+.elements__btn{
+	text-transform: uppercase;
+	background-color: $white;
+	font-size: 15px;
+	font-weight: 400;
+	
+	margin-right: 20px;
+	padding: 20px 20px;
+	border:none;
+	  border-radius: 5px;
+	 box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	 
+	 transition:all .2s linear;
+
+	 &:hover{
+	 	background-color: #061e37;
+	 	color: $white;
+	 }
+
+}
+.videos{
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;	
+	border: 1px solid black;
+	
+}
+.video{
+ 
+}
+.video__items{
+	align-items:center;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+	z-index: 1;
+	background-color: rgba($white,.7);
+}
+.video__play{
+	margin-bottom: 10px;
+	cursor: pointer;
+	align-items:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	background-color: #061e37;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+}
+.video__white{
+	position: absolute;
+	 width: 0;
+      height: 0;
+      
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 10px solid $white;
+	
+}
+@media screen and(max-width: $big-width){
+	.elements__content{
+		max-width: 400px;
+	}
+	.elements__title{
+		font-size: 40px;
+	}
+	.videos{
+		max-width: 500px;
+		
+	}
+	.elements__btn{
+		padding: 10px;
+	}
+	.elements__text{
+		margin-bottom: 30px;
+		font-size: 14px;
+	}
+}
+@media screen and(max-width: $small-width){
+
+	.elements{
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+	.elements__content{
+		max-width: 300px;
+	}
+	.elements__title{
+		font-size: 25px;
+	}
+	.videos{
+		max-width: 400px;
+		
+	}
+	.elements__btn{
+		font-size: 10px;
+		padding: 10px;
+	}
+	.elements__text{
+		margin-bottom: 30px;
+		font-size: 10px;
+	}
+}
+@media screen and(max-width: $phone){
+
+	.elements{
+		padding-top: 40px;
+		padding-bottom: 70px;
+	}
+	.elements__content{
+		max-width: 2500px;
+	}
+	.elements__title{
+		font-size: 20px;
+	}
+	.videos{
+		max-width: 350px;
+		
+	}
+	.elements__btn{
+		font-size: 8px;
+		padding: 10px;
+	}
+	.elements__text{
+		margin-bottom: 30px;
+		font-size: 10px;
+	}
+}

@@ -1,0 +1,141 @@
+.custom{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,123,117,1) 0%, rgba(9,121,114,1) 18%, rgba(0,212,255,1) 77%);
+}
+.custom__pers{
+	
+	    margin-left: 100px;
+}
+
+.custom__arrows{
+	transform:translateX(370px);
+	margin-bottom: 30px;
+	cursor: pointer;
+	
+}
+.custom__up{
+
+	 width: 15px;
+      height: 15px;
+      border-top: 4px solid $white;
+      border-right: 4px solid $white;
+      margin-right: 60px;
+      transform: rotate(-45deg);
+}
+.custom__down{
+	 width: 15px;
+      height: 15px;
+      border-top: 4px solid $white;
+      border-right: 4px solid $white;
+      margin-right: 60px;
+      transform: rotate(135deg);
+}
+
+
+.custom__item{
+
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	    margin-bottom: 70px;
+}
+.custom__img{
+	margin-right: 50px;
+	height: 60px;
+	width: 60px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	    border: 1px solid black;
+}
+.custom__content{
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	background-color: $white;
+	padding: 30px;
+}
+.el--cus{
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+
+.elements--customer{
+	padding-top: 100px;
+	margin-right: 70px;
+	
+}
+.custitle{
+	font-size: 45px;
+	text-transform: none;
+	
+}
+
+.custom__name{
+	font-size: 18px;
+	color: $secondary;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.custom__text{
+	font-size: 15px;
+	color:#78909c;
+	line-height: 1.5;
+}
+
+@media screen and(max-width: $big-width){
+	.custom__arrows{
+		transform:translateX(290px);
+	}
+}
+@media screen and(max-width: $small-width){
+	.custom__text{
+		font-size: 10px;
+	}
+	.custom__name{
+		font-size: 14px;
+	}
+	.custom__pers{
+		margin-left: 30px;
+	}
+	.custom__img{
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	.custom__arrows{
+		transform:translateX(210px);
+	}
+	.custitle{
+		font-size: 30px;
+	}
+}
+@media screen and(max-width: $phone){
+	.custom__content{
+		padding: 10px;
+	}
+	.custom__item{
+		margin-bottom: 30px;
+	}
+	.custom__text{
+		font-size: 7px;
+		line-height: 1.2;
+	}
+	.custom__name{
+		font-size: 12px;
+	}
+	.custom__pers{
+		margin-left: 10px;
+	}
+	.custom__img{
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	.custom__arrows{
+		transform:translateX(110px);
+	}
+	.custitle{
+		font-size: 30px;
+	}
+}

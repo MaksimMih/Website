@@ -1,0 +1,69 @@
+.contact{
+	background-color: #fafafa;
+}
+.contact__items{
+	margin: 0 auto;
+	max-width: 600px;
+}
+.contact__elem{
+	margin-bottom: 30px;
+	display: flex;
+	align-items:center;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.contact__input{
+	width: 280px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	 padding: 20px;
+	 font-size: 16px;
+	 color: #061e37;
+	 
+	 &::placeholder{
+	 	color: $secondary;
+	 }
+	  
+	&--message{
+		width: 600px;
+		height: 200px;
+				
+	}   
+}
+.contact__subcride{
+	margin-left: 10px;
+	color: $secondary;
+	font-weight: 500;
+}
+.goes--btn--send{
+	padding: 15px 40px;
+	margin-right: 0;
+}
+@media screen and(max-width: $small-width){
+	.contact__items{
+		max-width: 500px;
+	}
+	.contact__input{
+		width: 200px;
+		
+		&--message{
+		width: 500px;
+		height: 160px;
+				
+	}  
+	}
+}
+@media screen and(max-width: $phone){
+	.contact__items{
+		max-width: 300px;
+	}
+	.contact__input{
+		width: 140px;
+		
+		&--message{
+		width: 400px;
+		height: 160px;
+				
+	}  
+	}
+}
